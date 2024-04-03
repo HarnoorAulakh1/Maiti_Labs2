@@ -1,0 +1,402 @@
+.endText {
+  position: absolute;
+  width: 357px;
+  height: 42px;
+  left: calc(50% - 357px / 2 + 0.5px);
+  top: 70%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 28px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.footer {
+  width: 100%;
+  height: 30rem;
+  display: block;
+  background-color: #133009;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 0px 0px 0px 0px;
+  position: relative;
+}
+.logo {
+  width: 15rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  border-radius: 0px 0px 0px 0px;
+}
+.frame {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.img {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  overflow: hidden;
+  background-image: url(https://framerusercontent.com/images/ZyJOPDAUxIdwormCYzSIXP2yUIE.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  border-radius: 0px 0px 0px 0px;
+}
+.logo p {
+  width: 196px;
+  height: 41px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  color: var(--pure_white, #ffffff);
+  font-size: 2rem;
+  letter-spacing: 0em;
+  line-height: 1.2;
+}
+.query {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  color: var(--pure_white, #ffffff);
+  font-size: 1.5rem;
+  letter-spacing: -0.7px;
+  line-height: 1.2;
+}
+
+.item {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 8px;
+  border-radius: 0px 0px 0px 0px;
+}
+.inner {
+  width: max-content;
+  height: 2rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 1rem;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.stackin {
+  width: 216px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: rem;
+  border-radius: 0px 0px 0px 0px;
+}
+.stackout {
+  width: 244px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: .5rem;
+  border-radius: 0px 0px 0px 0px;
+}
+.stacks {
+  width: 60%;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #133009;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: absolute;
+  top: 3rem;
+  left: 40%;
+  border-radius: 0px 0px 0px 0px;
+}
+.heading {
+  width: 199px;
+  height: max-content;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.mailchimp button {
+  width: 100px;
+  height: 30px;
+  background-color: #ffffff;
+  overflow: hidden;
+  z-index: 1;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  border: 0;
+  border-radius: 10px;
+}
+.mailchimp input {
+  width: 200px;
+  height: 30px;
+  background-color: #ffffff;
+  overflow: hidden;
+  z-index: 1;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  color: black;
+  border-radius: 10px;
+}
+.copyright {
+  width: 387px;
+  height: 43px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  color: var(--pure_white, #ffffff);
+  font-size: 1rem;
+  letter-spacing: -0.7px;
+  line-height: 1.2;
+  position: absolute;
+  top: 90%;
+}
+.flex {
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.socialStack {
+  width: 200px;
+  height: 37.04px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60%;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  .item {
+    gap: 1rem;
+    height: max-content;
+    width: max-content;
+  }
+  .inner {
+    height: .8rem;
+    font-size: 50%;
+    color: #a5a5a3;
+    padding: 0px;
+  }
+
+  .stacks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 63px;
+    height: max-content;
+    left: 80%;
+    top: 10%;
+  }
+  .stackout {
+    width: 100%;
+    gap: 0;
+    height: max-content;
+  }
+  .stackin {
+    width: 100%;
+    height: 40%;
+    font-weight: 100;
+    align-items: flex-start;
+  }
+  .logo p {
+    font-size: 1.8rem;
+    height: max-content;
+    margin: 0;
+  }
+  .logo {
+    width: max-content;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .footer {
+    height: 12rem;
+  }
+  .img {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .frame {
+    width: 1rem;
+    height: 1rem;
+  }
+  .flex {
+    top: 1rem;
+    left: 2rem;
+    gap: 1rem;
+    width: max-content;
+  }
+  .query {
+    position: absolute;
+    width: 143px;
+    height: max-content;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  .mailchimp {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.8rem;
+  }
+  .mailchimp button {
+    width: 20%;
+    height: 1rem;
+    font-size: 0.4rem;
+    color: #868684;
+    border-radius: 1rem;
+  }
+  .mailchimp button::after {
+    content: "Send";
+    color: black;
+    font-size: 0.6rem;
+    font-weight: 500;
+  }
+  .mailchimp > button p {
+    display: none;
+  }
+  .mailchimp input {
+    width: 60%;
+    height: 1rem;
+    font-size: 0.7rem;
+    border-radius: 1rem;
+    border: 0.5rem;
+    text-align: center;
+    color: #000000;
+  }
+  .endText {
+    position: absolute;
+    width: 102px;
+    height: 12px;
+    top: 80%;
+    left: 40%;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 275;
+    font-size: 8px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  .copyright {
+    position: absolute;
+    width: 119px;
+    height: 12px;
+    left: 38%;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 275;
+    font-size: 8px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+
+  .socialStack {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: relative;
+    width: 5rem;
+    height: 15px;
+  }
+  .icon {
+    width: 1rem;
+    height: 1rem;
+  }
+}
