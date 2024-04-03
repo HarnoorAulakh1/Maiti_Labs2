@@ -14,7 +14,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 4rem;
   overflow: hidden;
 }
 .project {
@@ -22,12 +22,11 @@ p {
   font-style: normal;
   font-weight: 700;
   font-size: 3rem;
-  line-height: 105px;
   color: #000000;
   text-align: center;
 }
 .para {
-  width: 50rem;
+  width: 70%;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
