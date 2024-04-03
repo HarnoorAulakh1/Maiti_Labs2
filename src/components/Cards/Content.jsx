@@ -8,7 +8,7 @@ function Content({ heading, para, short}) {
       <p className={styles.para}>{para}
       </p>
       <p className={styles.short}>{short}</p>
-      <button className={styles.btn}><p>Learn More</p></button>
+      <button className={styles.btn}><p>Learn More!</p></button>
     </div>
   );
 }
